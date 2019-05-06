@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3A10557223018FC00E2B28F /* ClassListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A10556223018FC00E2B28F /* ClassListTableViewController.swift */; };
+		E3A10559223032FD00E2B28F /* ClipUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A10558223032FD00E2B28F /* ClipUpTableViewController.swift */; };
+		E3A1055B2230331500E2B28F /* ClipDownTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1055A2230331500E2B28F /* ClipDownTableViewController.swift */; };
+		E3A1055F22305DB900E2B28F /* ClipEventEditBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A1055E22305DB900E2B28F /* ClipEventEditBaseViewController.swift */; };
 		E3BC5EDA222B1D4200BF6B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC5ED9222B1D4200BF6B39 /* AppDelegate.swift */; };
-		E3BC5EDC222B1D4200BF6B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC5EDB222B1D4200BF6B39 /* ViewController.swift */; };
 		E3BC5EDF222B1D4200BF6B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BC5EDD222B1D4200BF6B39 /* Main.storyboard */; };
 		E3BC5EE1222B1D4400BF6B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BC5EE0222B1D4400BF6B39 /* Assets.xcassets */; };
 		E3BC5EE4222B1D4400BF6B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BC5EE2222B1D4400BF6B39 /* LaunchScreen.storyboard */; };
 		E3BC5EEF222B1D4400BF6B39 /* Clip_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC5EEE222B1D4400BF6B39 /* Clip_AppTests.swift */; };
 		E3BC5EFA222B1D4400BF6B39 /* Clip_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC5EF9222B1D4400BF6B39 /* Clip_AppUITests.swift */; };
+		E3BC5F0B222B1E2100BF6B39 /* Course Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC5F0A222B1E2100BF6B39 /* Course Data Model.swift */; };
+		E3BC5F0D222B210D00BF6B39 /* Student Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC5F0C222B210D00BF6B39 /* Student Data Model.swift */; };
+		E3BC5F0F222B229B00BF6B39 /* Structure definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC5F0E222B229B00BF6B39 /* Structure definitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3A10556223018FC00E2B28F /* ClassListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListTableViewController.swift; sourceTree = "<group>"; };
+		E3A10558223032FD00E2B28F /* ClipUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipUpTableViewController.swift; sourceTree = "<group>"; };
+		E3A1055A2230331500E2B28F /* ClipDownTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipDownTableViewController.swift; sourceTree = "<group>"; };
+		E3A1055E22305DB900E2B28F /* ClipEventEditBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipEventEditBaseViewController.swift; sourceTree = "<group>"; };
 		E3BC5ED6222B1D4200BF6B39 /* Clip App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clip App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BC5ED9222B1D4200BF6B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3BC5EDB222B1D4200BF6B39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3BC5EDE222B1D4200BF6B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3BC5EE0222B1D4400BF6B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3BC5EE3222B1D4400BF6B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		E3BC5EF5222B1D4400BF6B39 /* Clip AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clip AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BC5EF9222B1D4400BF6B39 /* Clip_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clip_AppUITests.swift; sourceTree = "<group>"; };
 		E3BC5EFB222B1D4400BF6B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BC5F0A222B1E2100BF6B39 /* Course Data Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course Data Model.swift"; sourceTree = "<group>"; };
+		E3BC5F0C222B210D00BF6B39 /* Student Data Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student Data Model.swift"; sourceTree = "<group>"; };
+		E3BC5F0E222B229B00BF6B39 /* Structure definitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure definitions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,13 @@
 			isa = PBXGroup;
 			children = (
 				E3BC5ED9222B1D4200BF6B39 /* AppDelegate.swift */,
-				E3BC5EDB222B1D4200BF6B39 /* ViewController.swift */,
-				E3BC5EDD222B1D4200BF6B39 /* Main.storyboard */,
 				E3BC5EE0222B1D4400BF6B39 /* Assets.xcassets */,
 				E3BC5EE2222B1D4400BF6B39 /* LaunchScreen.storyboard */,
 				E3BC5EE5222B1D4400BF6B39 /* Info.plist */,
+				E3BC5F09222B1DA900BF6B39 /* Default Files */,
+				E3BC5F08222B1D8500BF6B39 /* View Controllers */,
+				E3BC5F07222B1D6A00BF6B39 /* Data model */,
+				E3BC5EDD222B1D4200BF6B39 /* Main.storyboard */,
 			);
 			path = "Clip App";
 			sourceTree = "<group>";
@@ -123,6 +137,34 @@
 				E3BC5EFB222B1D4400BF6B39 /* Info.plist */,
 			);
 			path = "Clip AppUITests";
+			sourceTree = "<group>";
+		};
+		E3BC5F07222B1D6A00BF6B39 /* Data model */ = {
+			isa = PBXGroup;
+			children = (
+				E3BC5F0A222B1E2100BF6B39 /* Course Data Model.swift */,
+				E3BC5F0C222B210D00BF6B39 /* Student Data Model.swift */,
+				E3BC5F0E222B229B00BF6B39 /* Structure definitions.swift */,
+			);
+			path = "Data model";
+			sourceTree = "<group>";
+		};
+		E3BC5F08222B1D8500BF6B39 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3A10556223018FC00E2B28F /* ClassListTableViewController.swift */,
+				E3A10558223032FD00E2B28F /* ClipUpTableViewController.swift */,
+				E3A1055A2230331500E2B28F /* ClipDownTableViewController.swift */,
+				E3A1055E22305DB900E2B28F /* ClipEventEditBaseViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E3BC5F09222B1DA900BF6B39 /* Default Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Default Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3BC5EDC222B1D4200BF6B39 /* ViewController.swift in Sources */,
+				E3BC5F0F222B229B00BF6B39 /* Structure definitions.swift in Sources */,
+				E3A1055B2230331500E2B28F /* ClipDownTableViewController.swift in Sources */,
+				E3A1055F22305DB900E2B28F /* ClipEventEditBaseViewController.swift in Sources */,
+				E3A10559223032FD00E2B28F /* ClipUpTableViewController.swift in Sources */,
+				E3BC5F0D222B210D00BF6B39 /* Student Data Model.swift in Sources */,
+				E3BC5F0B222B1E2100BF6B39 /* Course Data Model.swift in Sources */,
+				E3A10557223018FC00E2B28F /* ClassListTableViewController.swift in Sources */,
 				E3BC5EDA222B1D4200BF6B39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HG38E6GSN;
 				INFOPLIST_FILE = "Clip App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HG38E6GSN;
 				INFOPLIST_FILE = "Clip App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
