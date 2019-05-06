@@ -41,3 +41,6 @@ issue could still be dicey.
 
 Without advice from an experienced colleageue, I have decided
 to shelve the project at this time.
+
+That said, all files to run the app are available here.  Download it to 
+its own folder and open the project in XCode.
